@@ -4,6 +4,7 @@ import calculadora from '../assets/images/calculadora.jpg';
 import agenda from '../assets/images/agenda.jpg';
 import venta from '../assets/images/venta.jpg';
 import control from '../assets/images/control.jpg';
+import portafolio from '../assets/images/portafolio.jpg';
 
 export const Portafolio = () => {
     return (
@@ -54,6 +55,15 @@ export const Portafolio = () => {
                             <p>Control Académico realizado en javafx y MySQL</p>
                             <p>19-07-2022</p>
                             <a href="https://github.com/jyuman-2021335/javafx-control-academico-in5bv-2022.git"><i className="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div className="proyecto">
+                    <img src={portafolio} alt="" />
+                        <div className="overlay">
+                            <h3>Portafolio Personal</h3>
+                            <p>Portafolio personal utilizando React JS</p>
+                            <p>01-05-2023</p>
+                            <a href="https://github.com/jyuman-2021335/portafolio-personal-react.git"><i className="fa-brands fa-github"></i></a>
                         </div>
                     </div>
                 </div>
