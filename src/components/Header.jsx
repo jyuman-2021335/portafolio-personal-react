@@ -12,7 +12,7 @@ export const Header = () => {
                     <ul>
                         <li><a href="#inicio" onClick="seleccionar()">INICIO</a></li>
                         <li><a href="#skills" onClick="seleccionar()">SKILLS</a></li>
-                        <li><a href="#" onClick="seleccionar()">PORTFOLIO</a></li>
+                        <li><a href="#portafolio" onClick="seleccionar()">PORTFOLIO</a></li>
                     </ul>
                 </nav>
             </header>
